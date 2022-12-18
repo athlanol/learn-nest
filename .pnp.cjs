@@ -42,6 +42,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/supertest", "npm:2.0.12"],\
             ["@typescript-eslint/eslint-plugin", "virtual:2631d15004e3b6e89d20b6f95f01a27032b31420a9eea78f3ccaadd5a9a7a02d99f82f459bae4d5ab382b72208c4ceb05610c30bf5172ff60978e4f7dfa8dfbb#npm:5.44.0"],\
             ["@typescript-eslint/parser", "virtual:2631d15004e3b6e89d20b6f95f01a27032b31420a9eea78f3ccaadd5a9a7a02d99f82f459bae4d5ab382b72208c4ceb05610c30bf5172ff60978e4f7dfa8dfbb#npm:5.44.0"],\
+            ["class-transformer", "npm:0.5.1"],\
+            ["class-validator", "npm:0.14.0"],\
             ["eslint", "npm:8.28.0"],\
             ["eslint-config-prettier", "virtual:2631d15004e3b6e89d20b6f95f01a27032b31420a9eea78f3ccaadd5a9a7a02d99f82f459bae4d5ab382b72208c4ceb05610c30bf5172ff60978e4f7dfa8dfbb#npm:8.5.0"],\
             ["eslint-plugin-prettier", "virtual:2631d15004e3b6e89d20b6f95f01a27032b31420a9eea78f3ccaadd5a9a7a02d99f82f459bae4d5ab382b72208c4ceb05610c30bf5172ff60978e4f7dfa8dfbb#npm:4.2.1"],\
@@ -1439,8 +1441,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/reflect-metadata", null],\
             ["@types/rxjs", null],\
             ["cache-manager", null],\
-            ["class-transformer", null],\
-            ["class-validator", null],\
+            ["class-transformer", "npm:0.5.1"],\
+            ["class-validator", "npm:0.14.0"],\
             ["iterare", "npm:1.2.1"],\
             ["reflect-metadata", "npm:0.1.13"],\
             ["rxjs", "npm:7.5.7"],\
@@ -1528,8 +1530,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/class-validator", null],\
             ["@types/nestjs__common", null],\
             ["@types/reflect-metadata", null],\
-            ["class-transformer", null],\
-            ["class-validator", null],\
+            ["class-transformer", "npm:0.5.1"],\
+            ["class-validator", "npm:0.14.0"],\
             ["reflect-metadata", "npm:0.1.13"]\
           ],\
           "packagePeers": [\
@@ -2172,6 +2174,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@types/supertest", "npm:2.0.12"],\
             ["@types/superagent", "npm:4.1.15"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/validator", [\
+        ["npm:13.7.10", {\
+          "packageLocation": "./.yarn/cache/@types-validator-npm-13.7.10-80d6b32ae6-7b142c0801.zip/node_modules/@types/validator/",\
+          "packageDependencies": [\
+            ["@types/validator", "npm:13.7.10"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3459,6 +3470,27 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/cjs-module-lexer-npm-1.2.2-473ce063ea-977f3f042b.zip/node_modules/cjs-module-lexer/",\
           "packageDependencies": [\
             ["cjs-module-lexer", "npm:1.2.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["class-transformer", [\
+        ["npm:0.5.1", {\
+          "packageLocation": "./.yarn/cache/class-transformer-npm-0.5.1-96b5161e6c-f191c8b4cc.zip/node_modules/class-transformer/",\
+          "packageDependencies": [\
+            ["class-transformer", "npm:0.5.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["class-validator", [\
+        ["npm:0.14.0", {\
+          "packageLocation": "./.yarn/cache/class-validator-npm-0.14.0-b600d5fe72-f62e4a0ad2.zip/node_modules/class-validator/",\
+          "packageDependencies": [\
+            ["class-validator", "npm:0.14.0"],\
+            ["@types/validator", "npm:13.7.10"],\
+            ["libphonenumber-js", "npm:1.10.15"],\
+            ["validator", "npm:13.7.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -6239,6 +6271,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["libphonenumber-js", [\
+        ["npm:1.10.15", {\
+          "packageLocation": "./.yarn/cache/libphonenumber-js-npm-1.10.15-42cc8b9186-9428320615.zip/node_modules/libphonenumber-js/",\
+          "packageDependencies": [\
+            ["libphonenumber-js", "npm:1.10.15"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["lines-and-columns", [\
         ["npm:1.2.4", {\
           "packageLocation": "./.yarn/cache/lines-and-columns-npm-1.2.4-d6c7cc5799-0c37f9f7fa.zip/node_modules/lines-and-columns/",\
@@ -6788,6 +6829,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/supertest", "npm:2.0.12"],\
             ["@typescript-eslint/eslint-plugin", "virtual:2631d15004e3b6e89d20b6f95f01a27032b31420a9eea78f3ccaadd5a9a7a02d99f82f459bae4d5ab382b72208c4ceb05610c30bf5172ff60978e4f7dfa8dfbb#npm:5.44.0"],\
             ["@typescript-eslint/parser", "virtual:2631d15004e3b6e89d20b6f95f01a27032b31420a9eea78f3ccaadd5a9a7a02d99f82f459bae4d5ab382b72208c4ceb05610c30bf5172ff60978e4f7dfa8dfbb#npm:5.44.0"],\
+            ["class-transformer", "npm:0.5.1"],\
+            ["class-validator", "npm:0.14.0"],\
             ["eslint", "npm:8.28.0"],\
             ["eslint-config-prettier", "virtual:2631d15004e3b6e89d20b6f95f01a27032b31420a9eea78f3ccaadd5a9a7a02d99f82f459bae4d5ab382b72208c4ceb05610c30bf5172ff60978e4f7dfa8dfbb#npm:8.5.0"],\
             ["eslint-plugin-prettier", "virtual:2631d15004e3b6e89d20b6f95f01a27032b31420a9eea78f3ccaadd5a9a7a02d99f82f459bae4d5ab382b72208c4ceb05610c30bf5172ff60978e4f7dfa8dfbb#npm:4.2.1"],\
@@ -8964,6 +9007,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@jridgewell/trace-mapping", "npm:0.3.17"],\
             ["@types/istanbul-lib-coverage", "npm:2.0.4"],\
             ["convert-source-map", "npm:1.9.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["validator", [\
+        ["npm:13.7.0", {\
+          "packageLocation": "./.yarn/cache/validator-npm-13.7.0-624277e841-2b83283de1.zip/node_modules/validator/",\
+          "packageDependencies": [\
+            ["validator", "npm:13.7.0"]\
           ],\
           "linkType": "HARD"\
         }]\
