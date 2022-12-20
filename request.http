@@ -3,7 +3,7 @@ POST http://localhost:3000/auth/signup
 Content-Type: application/json
 
 {
-  "email": "ngops@gmail.com",
+  "email": "asdf@gmail.com",
   "password": "ngopi"
 }
 
@@ -14,3 +14,9 @@ Content-Type: application/json
 {
   "email": "konstanta@email.com"
 }
+
+### Delete a user
+DELETE http://localhost:3000/auth/3
+
+### Find a particular user with email
+GET http://localhost:3000/auth?email=asdf@gmail.com
