@@ -22,8 +22,8 @@ export class UsersController {
   }
 
   @Get()
-  findAll() {
-    return this.usersService.findAll();
+  findAll(email: string) {
+    return this.usersService.findAll(email);
   }
 
   @Get(':id')

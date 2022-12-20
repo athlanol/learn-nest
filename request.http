@@ -3,6 +3,14 @@ POST http://localhost:3000/auth/signup
 Content-Type: application/json
 
 {
-  "email": "sak@gmail.com",
+  "email": "ngops@gmail.com",
   "password": "ngopi"
+}
+
+### Update a user
+PATCH http://localhost:3000/auth/2
+Content-Type: application/json
+
+{
+  "email": "konstanta@email.com"
 }
