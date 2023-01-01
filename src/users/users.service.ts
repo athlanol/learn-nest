@@ -15,7 +15,7 @@ export class UsersService {
   }
 
   async findAll(email: string) {
-    const user = await this.repo.find({ where: { email } });
+    const user = await this.repo.findBy({ email });
     if (!user) {
       throw new NotFoundException('user not found');
     }
