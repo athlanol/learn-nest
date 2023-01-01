@@ -7,10 +7,12 @@ import {
   Param,
   Delete,
   Query,
+  NotFoundException,
 } from '@nestjs/common';
 import { UsersService } from './users.service';
 import { CreateUserDto } from './dto/create-user.dto';
 import { UpdateUserDto } from './dto/update-user.dto';
+import { NotFoundError } from 'rxjs';
 
 @Controller('auth')
 export class UsersController {
@@ -23,8 +25,12 @@ export class UsersController {
   }
 
   @Get('users')
-  findAll(email: string) {
-    return this.usersService.findAll(email);
+  async findAll(email: string) {
+    const user = await this.usersService.findAll(email);
+    if (!user) {
+      throw new NotFoundException('user not found');
+    }
+    return user;
   }
 
   @Get()

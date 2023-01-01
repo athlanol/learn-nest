@@ -16,7 +16,11 @@ Content-Type: application/json
 }
 
 ### Delete a user
-DELETE http://localhost:3000/auth/3
+DELETE http://localhost:3000/auth/5
 
 ### Find a particular user with email
-GET http://localhost:3000/auth?email=asdf@gmail.com
+GET http://localhost:3000/auth?email=sak@gmail.com
+
+
+### Find a particular user with an id
+GET http://localhost:3000/auth/123213
