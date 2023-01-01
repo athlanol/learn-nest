@@ -12,8 +12,10 @@ import {
 import { UsersService } from './users.service';
 import { CreateUserDto } from './dto/create-user.dto';
 import { UpdateUserDto } from './dto/update-user.dto';
-import { NotFoundError } from 'rxjs';
+import { UserDto } from './dto/user.dto';
+import { Serialize } from '../interceptors/serialize.interceptor';
 
+@Serialize(UserDto)
 @Controller('auth')
 export class UsersController {
   constructor(private readonly usersService: UsersService) {}
